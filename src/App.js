@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 function App() {
-  return <h1>hello world</h1>;
+  return <div>hello world</div>;
 }
+
+// class App extends Component {
+//   render() {
+//     return React.createElement('div', null, 'hello,world!!!!');
+//   }
+// }
 
 export default App;
