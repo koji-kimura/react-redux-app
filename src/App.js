@@ -1,8 +1,12 @@
 import React from 'react';
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
+      <Cat />
+      <Cat />
+      <Cat />
+      <Cat />
       <label htmlFor="bar">bar</label>
       <input
         type="text"
@@ -15,6 +19,10 @@ function App() {
       />
     </React.Fragment>
   );
-}
+};
+
+const Cat = () => {
+  return <div>Meow!!!</div>;
+};
 
 export default App;
